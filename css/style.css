@@ -510,6 +510,10 @@ img {
   background-color: var(--basic-mediumblue);
 }
 
+.main-footer-logo {
+  background-color: var(--basic-red);
+}
+
 .footer-nav {
   list-style: none;
 }
