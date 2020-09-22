@@ -14,21 +14,27 @@
 <body class="page-body">
 
   <header class="main-header">
-    <div class="main-header-panel">
-      <a class="main-header-logo"><img src="img/icons/logo-technomart.svg" width="108" height="18"
-          alt="Логотип Техномарт"></a>
-      <!-- Обернуть в form -->
-      <input type="search" class="search" name="search" id="search" value="Поиск:">
-      <a href="#" class="wishlist">Закладки: 0</a>
-      <a href="#" class="cart">Корзина: 0</a>
-      <a href="#" class="checkout">Оформить заказ</a>
+    <div class="main-header-bar">
+      <div class="main-header-panel">
+        <a class="main-header-logo"><img src="img/icons/logo-technomart.svg" width="108" height="18"
+            alt="Логотип Техномарт"></a>
+        <!-- Обернуть в form -->
+        <input type="search" class="search" name="search" id="search" value="Поиск:">
+        <a href="#" class="wishlist">Закладки: 0</a>
+        <a href="#" class="cart">Корзина: 0</a>
+        <a href="#" class="checkout">Оформить заказ</a>
+      </div>
     </div>
     <div class="main-header-info">
       <p class="main-header-promo">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-      <a href="tel:+78125550555" class="main-header-number">+7 (812) 555-05-55</a>
-      <address class="main-header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-      <a href="#" class="login-link-button">Войти</a>
-      <a href="#" class="reg-link-button">Регистрация</a>
+      <div class="header-contacts-container">
+        <a href="tel:+78125550555" class="main-header-number">+7 (812) 555-05-55</a>
+        <address class="main-header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      </div>
+      <div class="reg-buttons-container">
+        <a href="#" class="login-link-button">Войти</a>
+        <a href="#" class="reg-link-button">Регистрация</a>
+      </div>
     </div>
     <nav class="main-nav">
       <ul class="site-nav">
@@ -178,126 +184,144 @@
       </ul>
     </section>
     <section class="services">
-      <h2 class="services-title">Сервисы</h2>
-      <p class="services-text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех
-        сил, чтобы сделать ваши
-        покупки приятными.</p>
-      <button class="services-button" type="button">Доставка</button>
-      <button class="services-button" type="button">Гарантия</button>
-      <button class="services-button" type="button">Кредит</button>
-      <ul class="services-list">
-        <li class="services-item">
-          <h3 class="services-item-title">Доставка</h3>
-          <p class="services-item-text">Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно!
-            Ведь мы неплохо заработаем,
-            поднимая его на ваш этаж!</p>
-        </li>
-        <li class="services-item">
-          <h3 class="services-item-title">Гарантия</h3>
-          <p class="services-item-text">Если купленный у нас товар поломается или заискрит,
-            а также в случае пожара, спровоцированного его
-            возгоранием, вы всегда можете быть уверены в нашей
-            гарантии. Мы обменяем сгоревший товар на новый.
-            Дом уж восстановите как-нибудь сами.</p>
-        </li>
-        <li class="services-item">
-          <h3 class="services-item-title">Кредит</h3>
-          <p class="services-item-text">Залезть в долговую яму стало проще!
-            Кредитные консультанты придут вам на помощь.</p>
-          <a href="#" class="credit-button-link">Отправить заявку</a>
-        </li>
-      </ul>
-
+      <div class="services-wrapper">
+        <h2 class="services-title">Сервисы</h2>
+        <p class="services-text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех
+          сил, чтобы сделать ваши
+          покупки приятными.</p>
+        <div class="services-container">
+          <div class="services-buttons">
+            <button class="services-button" type="button">Доставка</button>
+            <button class="services-button" type="button">Гарантия</button>
+            <button class="services-button" type="button">Кредит</button>
+          </div>
+          <ul class="services-list">
+            <li class="services-item">
+              <h3 class="services-item-title">Доставка</h3>
+              <p class="services-item-text">Мы с удовольствием доставим ваш товар прямо
+                к вашему подъезду совершенно бесплатно!
+                Ведь мы неплохо заработаем,
+                поднимая его на ваш этаж!</p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Гарантия</h3>
+              <p class="services-item-text">Если купленный у нас товар поломается или заискрит,
+                а также в случае пожара, спровоцированного его
+                возгоранием, вы всегда можете быть уверены в нашей
+                гарантии. Мы обменяем сгоревший товар на новый.
+                Дом уж восстановите как-нибудь сами.</p>
+            </li>
+            <li class="services-item">
+              <h3 class="services-item-title">Кредит</h3>
+              <p class="services-item-text">Залезть в долговую яму стало проще!
+                Кредитные консультанты придут вам на помощь.</p>
+              <a href="#" class="credit-button-link">Отправить заявку</a>
+            </li>
+          </ul>
+          <div class="services-images"></div>
+        </div>
+      </div>
     </section>
-    <section class="about-us">
-      <h2 class="about-us-title">Компания «Техномарт»</h2>
-      <p class="about-us-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
-        строительства не оставит
-        равнодушными любителей сэкономить на гастарбайтерах.</p>
-      <p class="about-us-text">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со
-        многими транспортными
-        компаниями:</p>
-      <ul class="about-us-company-list">
-        <li class="about-us-company-item">Деловые линии</li>
-        <li class="about-us-company-item">Автотрейдинг</li>
-        <li class="about-us-company-item">ЖелДорЭкспедиция</li>
-      </ul>
-      <a href="#" class="about-us-button-link">Подробнее о компании</a>
-    </section>
-    <section class="contacts">
-      <h2 class="contacts-title">Контакты</h2>
-      <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис:</p>
-      <!-- Карта пока что картинкой -->
-      <a href="https://api.yandex.ru/maps/tools/constructor/" class="map" target="_blank">
-        <img src="img/content/map.jpg" width="300" height="158" alt="Карта проезда">
-      </a>
-      <p><a href="#" class="contacts-button-link">Заблудились? Напишите нам!</a></p>
-    </section>
-    <!-- Pop-up -->
-    <section class="modal modal-write-us">
-      <h2 class="modal-title visually-hidden">Напишите нам</h2>
-      <!-- Форма с контактами -->
-      <button class="modal-close-button" type="button">Закрыть</button>
-    </section>
-    <section class="modal modal-map">
-      <h2 class="modal-title visually-hidden">Как до нас добраться</h2>
-      <!-- Карта -->
-      <button class="modal-close-button" type="button">Закрыть</button>
-    </section>
+    <div class="info-container">
+      <section class="about-us">
+        <h2 class="about-us-title">Компания «Техномарт»</h2>
+        <p class="about-us-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+          строительства не оставит
+          равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <p class="about-us-text">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со
+          многими транспортными
+          компаниями:</p>
+        <ul class="about-us-company-list">
+          <li class="about-us-company-item">Деловые линии</li>
+          <li class="about-us-company-item">Автотрейдинг</li>
+          <li class="about-us-company-item">ЖелДорЭкспедиция</li>
+        </ul>
+        <a href="#" class="about-us-button-link">Подробнее о компании</a>
+      </section>
+      <section class="contacts">
+        <h2 class="contacts-title">Контакты</h2>
+        <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис:</p>
+        <!-- Карта пока что картинкой -->
+        <a href="https://api.yandex.ru/maps/tools/constructor/" class="map" target="_blank">
+          <img src="img/content/map.jpg" width="300" height="158" alt="Карта проезда">
+        </a>
+        <p><a href="#" class="contacts-button-link">Заблудились? Напишите нам!</a></p>
+      </section>
+      <!-- Pop-up -->
+      <section class="modal modal-write-us">
+        <h2 class="modal-title visually-hidden">Напишите нам</h2>
+        <!-- Форма с контактами -->
+        <button class="modal-close-button" type="button">Закрыть</button>
+      </section>
+      <section class="modal modal-map">
+        <h2 class="modal-title visually-hidden">Как до нас добраться</h2>
+        <!-- Карта -->
+        <button class="modal-close-button" type="button">Закрыть</button>
+      </section>
+    </div>
   </main>
 
   <footer class="page-footer main-footer">
-    <div class="footer-nav-line">
-      <a class="main-footer-logo"><img src="img/icons/logo-technomart.svg" width="108" height="18"
-          alt="Логотип Техномарт"></a>
-      <ul class="footer-nav">
-        <li class="footer-nav-link"><a href="#">Компания</a></li>
-        <li class="footer-nav-link"><a href="#">Новости</a></li>
-        <li class="footer-nav-link"><a href="catalog.html">Каталог</a></li>
-        <li class="footer-nav-link"><a href="#">Доставка</a></li>
-        <li class="footer-nav-link"><a href="#">Контакты</a></li>
-      </ul>
+    <div class="footer-background-top">
+      <div class="footer-nav-line">
+        <a class="main-footer-logo"><img src="img/icons/logo-technomart.svg" width="108" height="18"
+            alt="Логотип Техномарт"></a>
+        <ul class="footer-nav">
+          <li class="footer-nav-link"><a href="#">Компания</a></li>
+          <li class="footer-nav-link"><a href="#">Новости</a></li>
+          <li class="footer-nav-link"><a href="catalog.html">Каталог</a></li>
+          <li class="footer-nav-link"><a href="#">Доставка</a></li>
+          <li class="footer-nav-link"><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="footer-info-line">
+        <div class="footer-contacts-container">
+          <address class="main-footer-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+          <a href="tel:+78125550555" class="main-footer-number">+7 (812) 555-05-55</a>
+        </div>
+        <ul class="footer-special">
+          <li class="footer-special-link"><a href="#">Материалы</a></li>
+          <li class="footer-special-link"><a href="#">Техника</a></li>
+          <li class="footer-special-link"><a href="#">Инструмент</a></li>
+          <li class="footer-special-link"><a href="#">Спецпредложения</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="footer-info-line">
-      <address class="main-footer-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-      <a href="tel:+78125550555" class="main-footer-number">+7 (812) 555-05-55</a>
-      <ul class="footer-special">
-        <li class="footer-special-link"><a href="#">Материалы</a></li>
-        <li class="footer-special-link"><a href="#">Техника</a></li>
-        <li class="footer-special-link"><a href="#">Инструмент</a></li>
-        <li class="footer-special-link"><a href="#">Спецпредложения</a></li>
-      </ul>
-    </div>
-    <div class="footer-copyright">
-      <p class="footer-copyright-text">© 2010–2019 Компания «Техномарт»</p>
-      <p class="footer-copyright-text">Все права защищены</p>
-      <ul class="footer-social">
-        <li class="social-logo">
-          <a href="#">
-            <img src="img/icons/vkontakte-logo.svg" width="44" height="44" alt="Логотип Вконтакте">
-          </a>
-        </li>
-        <li class="social-logo">
-          <a href="#">
-            <img src="img/icons/facebook-logo.svg" width="44" height="44" alt="Логотип Facebook">
-          </a>
-        </li>
-        <li class="social-logo">
-          <a href="#">
-            <img src="img/icons/instagram-logo.svg" width="44" height="44" alt="Логотип Instagram">
-          </a>
-        </li>
-      </ul>
-      <p class="footer-copyright-text">
-        Обратная связь:
-        <a href="mailto:mail@htmlacademy.ru" class="main-footer-mail">mail@htmlacademy.ru</a>
-      </p>
-      <p class="footer-copyright-text">
-        Разработано —
-        <a href="https://htmlacademy.ru/intensive/htmlcss" class="main-footer-site-link"
-          target="_blank">htmlacademy.ru</a>
-      </p>
+    <div class="footer-background-bottom">
+      <div class="footer-copyright">
+        <div class="copyright-text-container">
+          <p class="footer-copyright-text">© 2010–2019 Компания «Техномарт»</p>
+          <p class="footer-copyright-text">Все права защищены</p>
+        </div>
+        <ul class="footer-social">
+          <li class="social-logo">
+            <a href="#">
+              <img src="img/icons/vkontakte-logo.svg" width="44" height="44" alt="Логотип Вконтакте">
+            </a>
+          </li>
+          <li class="social-logo">
+            <a href="#">
+              <img src="img/icons/facebook-logo.svg" width="44" height="44" alt="Логотип Facebook">
+            </a>
+          </li>
+          <li class="social-logo">
+            <a href="#">
+              <img src="img/icons/instagram-logo.svg" width="44" height="44" alt="Логотип Instagram">
+            </a>
+          </li>
+        </ul>
+        <div class="copyright-text-container">
+          <p class="footer-copyright-text">
+            Обратная связь:
+            <a href="mailto:mail@htmlacademy.ru" class="main-footer-mail">mail@htmlacademy.ru</a>
+          </p>
+          <p class="footer-copyright-text">
+            Разработано —
+            <a href="https://htmlacademy.ru/intensive/htmlcss" class="main-footer-site-link"
+              target="_blank">htmlacademy.ru</a>
+          </p>
+        </div>
+      </div>
     </div>
   </footer>
 
