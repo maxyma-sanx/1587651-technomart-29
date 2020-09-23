@@ -51,6 +51,23 @@ img {
   height: auto;
 }
 
+.center-container {
+  width: 960px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 *, 
 *::before, 
 *::after { 
@@ -58,10 +75,6 @@ img {
 }
 
 /* Grid */
-
-.page {
-  height: 100%;
-}
 
 .page-body {
   display: grid;
@@ -74,7 +87,6 @@ img {
 .main-header {
   display: grid;
   grid-template-rows: min-content 1fr min-content;
-  margin-bottom: 100px;
 }
 
 .main-header-bar {  
@@ -84,8 +96,6 @@ img {
 .main-header-panel {
   display: grid;
   grid-template-columns: 220px auto 150px 150px 150px;
-  width: 940px;
-  margin: 0 auto;
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-white);   
@@ -102,8 +112,6 @@ img {
 .main-header-info {
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
-  width: 940px;
-  margin: 0 auto;
   background: rgba(0, 0, 0, 0.0001);
 }
 
@@ -143,8 +151,6 @@ img {
 }
 
 .main-nav {
-  width: 940px;
-  margin: 0 auto;
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-white);
@@ -167,17 +173,8 @@ img {
 
 /* Index */
 
-/*
-.container {
-  width: 940px;
-  margin: 0 auto;
-}
-*/
-
 .proposal {
-  width: 940px;
-  margin: 0 auto;
-  margin-bottom: 700px;
+  margin-bottom: 200px;
 }
 
 .proposal-list {  
@@ -259,11 +256,6 @@ img {
   background-color: var(--basic-red);
 }
 
-.popular {
-  width: 940px;
-  margin: 0 auto;
-}
-
 .popular-container {
   background-color: var(--basic-lightbrown);
 }
@@ -320,11 +312,6 @@ img {
   background-color: var(--basic-red);
 }
 
-.brands {
-  width: 940px;
-  margin: 0 auto;
-}
-
 .brands-container {
   background-color: var(--basic-lightbrown);
 }
@@ -355,11 +342,6 @@ img {
 
 .services {
   background-color: var(--basic-background);
-}
-
-.services-wrapper {
-  width: 940px;
-  margin: 0 auto;
 }
 
 .services-title {
@@ -412,8 +394,6 @@ img {
 .info-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 940px;
-  margin: 0 auto;  
 }
 
 .about-us-title {
@@ -606,8 +586,6 @@ img {
 .footer-nav-line {
   display: grid;
   grid-template-columns: 220px 1fr;
-  width: 940px;
-  margin: 0 auto;
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-background);
@@ -626,8 +604,6 @@ img {
 .footer-info-line {
   display: grid;
   grid-template-columns: max-content 1fr;
-  width: 940px;
-  margin: 0 auto;
   font-size: 18px;
   line-height: 24px;
   color: var(--basic-background);
@@ -648,8 +624,6 @@ img {
 .footer-copyright {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 940px;
-  margin: 0 auto;
 }
 
 .footer-special {
