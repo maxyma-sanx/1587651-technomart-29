@@ -27,11 +27,11 @@
     </div>
     <div class="main-header-info center-container">
       <p class="main-header-promo">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-      <div class="header-contacts-container">
+      <div class="header-contacts">
         <a href="tel:+78125550555" class="main-header-number">+7 (812) 555-05-55</a>
         <address class="main-header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
       </div>
-      <div class="reg-buttons-container">
+      <div class="reg-buttons-main-container">
         <a href="#" class="login-link-button">Войти</a>
         <a href="#" class="reg-link-button">Регистрация</a>
       </div>
@@ -77,14 +77,19 @@
         <li class="proposal-slider">
           <ul class="slider-list">
             <li class="slider-list-item">
-              <h3 class="slider-item-title">Перфораторы</h3>
-              <p class="slider-item-text">Настоящие мужские игрушки</p>
-              <img src="img/content/slide-1.jpg" width="620" height="266" alt="Перфораторы Bosch">
+              <div class="slider-item-slogan">
+                <h3 class="slider-item-title">Перфораторы</h3>
+                <p class="slider-item-text">Настоящие мужские игрушки</p>
+              </div>
+              <img src="img/content/slide-1.jpg" class="slider-item-img" width="620" height="266"
+                alt="Перфораторы Bosch">
               <a href="catalog.html" class="slider-item-button">Открыть каталог</a>
             </li>
             <li class="slider-list-item visually-hidden">
-              <h3 class="slider-item-title">Дрели</h3>
-              <p class="slider-item-text">Соседям на радость!</p>
+              <div class="slider-item-slogan">
+                <h3 class="slider-item-title">Дрели</h3>
+                <p class="slider-item-text">Соседям на радость!</p>
+              </div>
               <img src="img/content/slide-2.jpg" width="620" height="266" alt="Дрели Bosch">
               <a href="catalog.html" class="slider-item-button">Открыть каталог</a>
             </li>
@@ -104,33 +109,33 @@
       <ul class="popular-list">
         <li class="popular-item">
           <a href="#" class="popular-item-link">
-            <h3 class="popular-item-title">Перфоратор BOSCH BFG 9000</h3>
             <img src="img/content/bosch-bfg-9000.jpg" class="img-center" width="184" height="164"
               alt="Перфоратор BOSCH BFG 9000">
+            <h3 class="popular-item-title">Перфоратор BOSCH BFG 9000</h3>
           </a>
           <p class="popular-item-price">32500 Р.</p>
           <p class="popular-item-action-price">25500 Р.</p>
         </li>
         <li class="popular-item">
           <a href="#" class="popular-item-link">
-            <h3 class="popular-item-title">Перфоратор BOSCH BFG 3000</h3>
             <img src="img/content/bosch-bfg-3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
+            <h3 class="popular-item-title">Перфоратор BOSCH BFG 3000</h3>
           </a>
           <p class="popular-item-price">22500 Р.</p>
           <p class="popular-item-action-price">15500 Р.</p>
         </li>
         <li class="popular-item">
           <a href="#" class="popular-item-link">
-            <h3 class="popular-item-title">Перфоратор BOSCH BFG 6000</h3>
             <img src="img/content/bosch-bfg-6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
+            <h3 class="popular-item-title">Перфоратор BOSCH BFG 6000</h3>
           </a>
           <p class="popular-item-price">30500 Р.</p>
           <p class="popular-item-action-price">25500 Р.</p>
         </li>
         <li class="popular-item">
           <a href="#" class="popular-item-link">
-            <h3 class="popular-item-title">Перфоратор BOSCH BFG 2000</h3>
             <img src="img/content/bosch-bfg-2000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
+            <h3 class="popular-item-title">Перфоратор BOSCH BFG 2000</h3>
           </a>
           <p class="popular-item-action-price">12500 Р.</p>
         </li>
@@ -187,9 +192,8 @@
     <section class="services">
       <div class="center-container">
         <h2 class="services-title">Сервисы</h2>
-        <p class="services-text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех
-          сил, чтобы сделать ваши
-          покупки приятными.</p>
+        <p class="services-text">Хороший интернет-магазин отличается от плохого не только ценами!</p>
+        <p class="services-text"> Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         <div class="services-container">
           <div class="services-buttons">
             <button class="services-button" type="button">Доставка</button>
