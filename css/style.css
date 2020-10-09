@@ -144,7 +144,7 @@ img {
   height: 123%;
   z-index: -1;
   background-color: var(--basic-background);
-  background-image: url(/img/decor/top-background.png);
+  background-image: url(../img/decor/top-background.png);
   background-position: top center;
   background-repeat: repeat;
 }
@@ -215,7 +215,7 @@ img {
   left: 17px;
   width: 17px;
   height: 17px;
-  background-image: url(/img/icons/icon-search.svg);
+  background-image: url(../img/icons/icon-search.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.3;
@@ -232,7 +232,7 @@ img {
   left: 12px;
   width: 15px;
   height: 15px;
-  background-image: url(/img/icons/icon-cart.svg);
+  background-image: url(../img/icons/icon-cart.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.3;
@@ -245,7 +245,7 @@ img {
   left: 6px;
   width: 14px;
   height: 16px;
-  background-image: url(/img/icons/icon-bookmark.svg);
+  background-image: url(../img/icons/icon-bookmark.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.3;
@@ -326,7 +326,7 @@ img {
   left: 36px;
   width: 19px;
   height: 19px;
-  background-image: url(/img/icons/icon-phone.svg);
+  background-image: url(../img/icons/icon-phone.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   transform: translateY(50%);
@@ -600,7 +600,7 @@ img {
   left: 213px;
   width: 44px;
   height: 65px;
-  background-image: url(/img/icons/icon-material.svg);
+  background-image: url(../img/icons/icon-material.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -617,7 +617,7 @@ img {
   left: 194px;
   width: 75px;
   height: 61px;
-  background-image: url(/img/icons/icon-instrument.svg);
+  background-image: url(../img/icons/icon-instrument.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -634,7 +634,7 @@ img {
   left: 191px;
   width: 78px;
   height: 62px;
-  background-image: url(/img/icons/icon-technics.svg);
+  background-image: url(../img/icons/icon-technics.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -652,7 +652,7 @@ img {
   left: 196px;
   width: 59px;
   height: 72px;
-  background-image: url(/img/icons/icon-sale.svg);
+  background-image: url(../img/icons/icon-sale.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -669,7 +669,7 @@ img {
   left: 191px;
   width: 78px;
   height: 63px;
-  background-image: url(/img/icons/icon-delivery.svg);
+  background-image: url(../img/icons/icon-delivery.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -880,7 +880,7 @@ img {
   left: 30px;
   width: 15px;
   height: 15px;
-  background-image: url(/img/icons/icon-cart.svg);
+  background-image: url(../img/icons/icon-cart.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.3;
@@ -1101,7 +1101,7 @@ img {
   right: 0;
   width: 10px;
   height: 279px;
-  background-image: url(/img/decor/top-line-shadow.png);
+  background-image: url(../img/decor/top-line-shadow.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   z-index: 20;
@@ -1152,7 +1152,7 @@ img {
   left: 150px;
   width: 468px;
   height: 261px;
-  background-image: url(/img/decor/delivery.png);
+  background-image: url(../img/decor/delivery.png);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1164,7 +1164,7 @@ img {
   left: 239px;
   width: 389px;
   height: 283px;
-  background-image: url(/img/decor/guarantee.png);
+  background-image: url(../img/decor/guarantee.png);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1176,7 +1176,7 @@ img {
   left: 165px;
   width: 465px;
   height: 285px;
-  background-image: url(/img/decor/credit.png);
+  background-image: url(../img/decor/credit.png);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1398,7 +1398,7 @@ img {
   left: 81px;
   width: 66px;
   height: 66px;
-  background-image: url(/img/icons/icon-mark.svg);
+  background-image: url(../img/icons/icon-mark.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1470,7 +1470,7 @@ li:not(:last-child) .breadcrumbs-item::after {
   left: 110%;
   width: 8px;
   height: 12px;
-  background-image: url(/img/icons/icon-right-small.svg);  
+  background-image: url(../img/icons/icon-right-small.svg);  
   background-repeat: no-repeat;
   background-position: 0 0;
   transform: translateX(11px);
