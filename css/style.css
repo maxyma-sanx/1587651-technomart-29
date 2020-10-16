@@ -891,7 +891,6 @@ img {
   color: var(--basic-white);  
   background-color: var(--basic-green);
   box-shadow: inset 0px -3px 0px #367315;
-  border: none;
   border-radius: 2px;
 }
 
@@ -1314,7 +1313,8 @@ img {
   right: 0;
   bottom: 0;
   left: 0;
-  margin: auto;
+  margin: auto;  
+  display: none;
   color: var(--basic-black);
   background-color: var(--basic-white);
   background-position: 0 0;
@@ -1518,6 +1518,15 @@ img {
   text-transform: uppercase;
   color: var(--basic-black);  
   background-color: var(--basic-white);
+}
+
+.modal-show {
+  display: block;
+  animation: modal-animation 0.5s;
+}
+
+.modal-error {
+  animation: error 0.5s;
 }
 
 /* Modal end */
@@ -2165,6 +2174,48 @@ li:not(:last-child) .breadcrumbs-item::after {
 }
 
 /* Footer end*/
+
+/* Animations */
+
+@keyframes modal-animation {
+  0% {
+    transform: translateY(-2000px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes error {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
 
 /* Product align */
 
