@@ -1759,6 +1759,14 @@ li:not(:last-child) .breadcrumbs-item::after {
   background-image: url(../img/icons/checkbox-on-hover.svg);
 }
 
+.filter-input-checkbox:focus + .filter-label::before {
+  outline: thin dotted;
+}
+
+.filter-input-checkbox:focus:checked + .filter-label::before {
+  outline: thin dotted;
+}
+
 .filter-input-radio + label::before {
   content: "";
   position: absolute;
@@ -1793,16 +1801,22 @@ li:not(:last-child) .breadcrumbs-item::after {
   cursor: pointer;
 }
 
-.filter-input-radio:hover + label::before,
-.filter-input-radio:focus + label::before {
+.filter-input-radio:hover + label::before {
   border: 4px solid var(--special-radio-hover);
   border-radius: 50%;
 }
 
-.filter-input-radio:hover + label::after,
-.filter-input-radio:focus + label::after {
+.filter-input-radio:hover + label::after {
   background-color: var(--special-radio-hover);
   border-radius: 50%;
+}
+
+.filter-input-radio:focus + label::before {
+  outline: thin dotted;
+}
+
+.filter-input-radio:focus:checked + label::before {
+  outline: thin dotted;
 }
 
 .filter-input:disabled + .filter-label {

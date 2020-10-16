@@ -18,10 +18,11 @@
       <div class="header-panel center-container">
         <a href="index.html" class="header-logo"><img src="img/icons/logo-technomart.svg" width="108" height="18"
             alt="Логотип Техномарт"></a>
-        <form class="search-form" action="" method="GET">
+        <form class="search-form" action="https://echo.htmlacademy.ru/" method="GET">
           <label for="search"></label>
           <input type="search" class="search" name="search" id="search" placeholder="Поиск:">
-          <svg width="17" height="17" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+          <svg aria-hidden="true" focusable="false" width="17" height="17" viewBox="0 0 17 17"
+            xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
               d="M13.458 12.044L17 15.586L15.586 17L12.044 13.458C10.782 14.421 9.21 15 7.5 15C3.35786 15 0 11.6421 0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15.0001 9.14309 14.4581 10.7403 13.458 12.044ZM7.5 2C4.467 2 2 4.467 2 7.5C2.00331 10.5362 4.4638 12.9967 7.5 13C10.532 13 13 10.532 13 7.5C13 4.467 10.532 2 7.5 2Z" />
           </svg>
@@ -39,18 +40,21 @@
       </div>
       <div class="reg-buttons-catalog-container">
         <a href="#" class="client-info-button">Равшан Джамшутович
-          <svg class="logout-icon" width="20" height="17" viewBox="0 0 20 17" xmlns="http://www.w3.org/2000/svg">
+          <svg aria-hidden="true" focusable="false" class="logout-icon" width="20" height="17" viewBox="0 0 20 17"
+            xmlns="http://www.w3.org/2000/svg">
             <path d="M20 8.5L11.125 0V6H5.125V11H11.125V17L20 8.5Z" />
             <path
               d="M2.10601 13.952V3.048C2.12401 2.672 2.27701 1.991 3.11601 1.991H8.14301V0H3.11601C0.938006 0 0.112006 1.81 0.0870056 3.027V13.973C0.112006 15.189 0.938006 17 3.11601 17H8.14301V15.01H3.11601C2.27701 15.01 2.12401 14.327 2.10601 13.952Z" />
           </svg>
-          <svg class="user-icon" width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+          <svg aria-hidden="true" focusable="false" class="user-icon" width="20" height="18" viewBox="0 0 20 18"
+            xmlns="http://www.w3.org/2000/svg">
             <path
               d="M17.881 14.166C15.737 13.431 13.625 12.5 12.674 11.776C12.017 11.275 11.904 10.158 12.157 9.361C13.275 8.458 14.021 6.884 14.021 5.083C14.021 2.276 12.221 0 10 0C7.77902 0 5.97901 2.276 5.97901 5.083C5.97901 6.884 6.72501 8.457 7.84201 9.36C8.09501 10.158 7.98302 11.275 7.32502 11.776C6.37502 12.5 4.26201 13.43 2.11801 14.166C-0.0259852 14.902 1.48343e-05 18 1.48343e-05 18H20C20 18 20.025 14.901 17.881 14.166Z" />
           </svg>
         </a>
         <a href="#" class="my-order">Мои заказы</a>
-        <svg class="point-icon" width="4" height="5" viewBox="0 0 4 5" xmlns="http://www.w3.org/2000/svg">
+        <svg aria-hidden="true" focusable="false" class="point-icon" width="4" height="5" viewBox="0 0 4 5"
+          xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
             d="M2.00023 0.494136C3.09715 0.494136 3.98643 1.38356 3.98643 2.4801C3.98643 3.57757 3.09715 4.46646 2.00023 4.46646C0.903104 4.46646 0.013898 3.57757 0.013898 2.4801C0.013898 1.38356 0.903104 0.494136 2.00023 0.494136Z" />
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -80,7 +84,7 @@
           </a></li>
         <li><a href="catalog.html" class="breadcrumbs-item">Каталог</a></li>
         <li><a href="#" class="breadcrumbs-item">Инструмент</a></li>
-        <li><a href="#" class="breadcrumbs-item">Перфораторы</a></li>
+        <li><a class="breadcrumbs-item">Перфораторы</a></li>
       </ul>
       <div class="catalog-title-container">
         <h1 class="catalog-main-title">Перфораторы</h1>
@@ -89,7 +93,7 @@
     <section class="catalog-content center-container">
       <h2 class="visually-hidden">Каталог</h2>
       <div class="catalog-content-container">
-        <form class="filter" action="" method="GET">
+        <form class="filter" action="https://echo.htmlacademy.ru/" method="GET">
           <p class="catalog-filter-text">Фильтр:</p>
           <fieldset class="filter-item filter-item-price">
             <legend class="filter-item-legend">Цена:</legend>
@@ -146,7 +150,7 @@
             <ul class="filter-list">
               <li class="filter-option">
                 <input class="filter-input-radio filter-input visually-hidden" type="radio" name="power-radio"
-                  id="filter-rechargeable">
+                  id="filter-rechargeable" checked>
                 <label for="filter-rechargeable">Аккумуляторные</label>
               </li>
               <li class="filter-option">
@@ -168,13 +172,15 @@
               </li>
               <li><a href="#" class="catalog-sorting-item sorting-func"><span class="sorting-text">По
                     функционалу</span></a></li>
-              <li><a href="#" class="catalog-sorting-item sorting-button-up">
-                  <svg width="11" height="10" viewBox="0 0 11 10" xmlns="http://www.w3.org/2000/svg">
+              <li><a href="#" class="catalog-sorting-item sorting-button-up" aria-label="От меньшего к большему">
+                  <svg aria-hidden="true" focusable="false" width="11" height="10" viewBox="0 0 11 10"
+                    xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.5 0L11 10L0 10" />
                   </svg>
                 </a></li>
-              <li><a href="#" class="catalog-sorting-item sorting-button-down">
-                  <svg width="11" height="10" viewBox="0 0 11 10" xmlns="http://www.w3.org/2000/svg">
+              <li><a href="#" class="catalog-sorting-item sorting-button-down" aria-label="От большего к меньшему">
+                  <svg aria-hidden="true" focusable="false" width="11" height="10" viewBox="0 0 11 10"
+                    xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.5 10L0 0H11" />
                   </svg>
                 </a></li>
@@ -361,7 +367,7 @@
   <footer class="page-footer main-footer">
     <div class="footer-background-top">
       <div class="footer-nav-line center-container">
-        <a class="main-footer-logo"><img src="img/icons/logo-technomart.svg" width="138" height="23"
+        <a href="index.html" class="main-footer-logo"><img src="img/icons/logo-technomart.svg" width="138" height="23"
             alt="Логотип Техномарт"></a>
         <ul class="footer-nav">
           <li><a href="#" class="footer-nav-link">Компания</a></li>
@@ -393,7 +399,8 @@
         <ul class="footer-social">
           <li class="social-logo">
             <a href="#">
-              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg role="img" aria-label="Вконтакте" width="44" height="44" viewBox="0 0 44 44" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path class="logo-back" fill-rule="evenodd" clip-rule="evenodd"
                   d="M22.1627 1.4839C33.6533 1.4839 42.9683 10.5873 42.9683 21.8169C42.9683 33.0461 33.6533 42.1494 22.1627 42.1494C10.6721 42.1494 1.35714 33.0461 1.35714 21.8169C1.35714 10.5873 10.6721 1.4839 22.1627 1.4839Z"
                   fill="#212A3A" />
@@ -405,7 +412,8 @@
           </li>
           <li class="social-logo">
             <a href="#">
-              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg role="img" aria-label="Facebook" width="44" height="44" viewBox="0 0 44 44" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path class="logo-back" fill-rule="evenodd" clip-rule="evenodd"
                   d="M21.8938 1.4839C33.1232 1.4839 42.2265 10.5873 42.2265 21.8169C42.2265 33.0461 33.1232 42.1494 21.8938 42.1494C10.6643 42.1494 1.56108 33.0461 1.56108 21.8169C1.56108 10.5873 10.6643 1.4839 21.8938 1.4839Z"
                   fill="#212A3A" />
@@ -415,7 +423,8 @@
           </li>
           <li class="social-logo">
             <a href="#">
-              <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg role="img" aria-label="Instagram" width="44" height="44" viewBox="0 0 44 44" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path class="logo-back" fill-rule="evenodd" clip-rule="evenodd"
                   d="M21.8938 1.4839C33.1233 1.4839 42.2265 10.5873 42.2265 21.8169C42.2265 33.0461 33.1233 42.1494 21.8938 42.1494C10.6643 42.1494 1.56112 33.0461 1.56112 21.8169C1.56112 10.5873 10.6643 1.4839 21.8938 1.4839Z"
                   fill="#212A3A" />
