@@ -12,7 +12,7 @@ mapClose.addEventListener("click", function (evt) {
    mapPopup.classList.remove("modal-show");
 });
 
-window.addEventListener('keydown', function (evt) {
+window.addEventListener("keydown", function (evt) {
    if (evt.keyCode === 27) {
       if (mapPopup.classList.contains("modal-show")) {
          evt.preventDefault();

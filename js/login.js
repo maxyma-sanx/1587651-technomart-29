@@ -6,19 +6,19 @@ const writeUsLogin = writeUsPopup.querySelector(".write-us-name");
 const writeUsMail = writeUsPopup.querySelector(".write-us-email");
 const writeUsText = writeUsPopup.querySelector(".write-us-description");
 
-writeUsLink.addEventListener('click', function (evt) {
+writeUsLink.addEventListener("click", function (evt) {
    evt.preventDefault();
    writeUsPopup.classList.add("modal-show");
    writeUsLogin.focus();
 });
 
-writeUsClose.addEventListener('click', function (evt) {
+writeUsClose.addEventListener("click", function (evt) {
    evt.preventDefault();
    writeUsPopup.classList.remove("modal-show");
    writeUsPopup.classList.remove("modal-error");
 });
 
-writeUsForm.addEventListener('submit', function (evt) {
+writeUsForm.addEventListener("submit", function (evt) {
    if (!writeUsLogin.value || !writeUsMail.value || !writeUsText.value) {
       evt.preventDefault();
       writeUsPopup.classList.remove("modal-error");
@@ -27,7 +27,7 @@ writeUsForm.addEventListener('submit', function (evt) {
    }
 });
 
-window.addEventListener('keydown', function (evt) {
+window.addEventListener("keydown", function (evt) {
    if (evt.keyCode === 27) {
       if (writeUsPopup.classList.contains("modal-show")) {
          evt.preventDefault();
