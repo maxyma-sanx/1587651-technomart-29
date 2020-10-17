@@ -8,7 +8,7 @@
     href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body class="page-body catalog-page">
@@ -19,7 +19,7 @@
         <a href="index.html" class="header-logo"><img src="img/icons/logo-technomart.svg" width="108" height="18"
             alt="Логотип Техномарт"></a>
         <form class="search-form" action="https://echo.htmlacademy.ru/" method="GET">
-          <label for="search"></label>
+          <label for="search" class="visually-hidden">Поиск по сайту</label>
           <input type="search" class="search" name="search" id="search" placeholder="Поиск:">
           <svg aria-hidden="true" focusable="false" width="17" height="17" viewBox="0 0 17 17"
             xmlns="http://www.w3.org/2000/svg">
@@ -357,8 +357,8 @@
       <h2 class="visually-hidden">Корзина покупателя</h2>
       <h3 class="modal-cart-title">Товар добавлен в корзину!</h3>
       <div class="modal-buttons">
-        <a href="#" class="modal-buy-button button" type="button">Оформить заказ</a>
-        <a href="#" class="modal-proceed-button" type="button">Продолжить покупки</a>
+        <a href="#" class="modal-buy-button button">Оформить заказ</a>
+        <a href="#" class="modal-proceed-button">Продолжить покупки</a>
       </div>
       <button class="modal-close-button" type="button" aria-label="Закрыть"></button>
     </section>
@@ -450,7 +450,7 @@
     </div>
   </footer>
 
-  <script src="js/cart.js"></script>
+  <script src="js/cart.min.js"></script>
 
 </body>
 
