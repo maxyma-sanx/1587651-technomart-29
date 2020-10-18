@@ -48,6 +48,7 @@
   --special-price-line: #444444;
   --special-radio-hover: #B5B5B5;
   --special-product-link-buy: #367315;
+  --special-slider-background: #808080;
 }
 
 /* Global style */
@@ -717,7 +718,7 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #808080;
+  background-color: var(--special-slider-background);
 }
 
 .slider-list-item {
